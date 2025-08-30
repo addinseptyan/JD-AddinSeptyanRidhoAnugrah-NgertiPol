@@ -1,0 +1,42 @@
+[
+  {
+    "id": "m1",
+    "title": "Apa itu Demokrasi?",
+    "summary": "Penjelasan sederhana tentang konsep demokrasi dan bagaimana pengaruhnya dalam kehidupan berbangsa.",
+    "content": "Demokrasi adalah bentuk pemerintahan di mana kekuasaan tertinggi berada di tangan rakyat. Di Indonesia, demokrasi diwujudkan melalui pemilu, kebebasan berpendapat, dan partisipasi publik dalam pengambilan keputusan.",
+    "tags": ["demokrasi", "politik", "pemilu"],
+    "image": "/images/materi/demokrasi.jpeg"
+  },
+  {
+    "id": "m2",
+    "title": "Cara Kerja Pemilu di Indonesia",
+    "summary": "Pelajari bagaimana pemilu diselenggarakan, siapa saja yang terlibat, dan apa peran masyarakat.",
+    "content": "Pemilu adalah proses memilih wakil rakyat dan pemimpin negara secara langsung oleh rakyat. Di Indonesia, pemilu diatur oleh KPU dan dilakukan setiap lima tahun sekali. Pemilih memberikan suara untuk calon legislatif dan eksekutif.",
+    "tags": ["pemilu", "KPU", "demokrasi"],
+    "image": "/images/materi/pemilu.jpeg"
+  },
+  {
+    "id": "m3",
+    "title": "Peran Anak Muda dalam Politik",
+    "summary": "Mengapa generasi muda penting dalam membentuk masa depan politik Indonesia?",
+    "content": "Anak muda memiliki kekuatan besar untuk membawa perubahan melalui suara, aksi sosial, dan partisipasi dalam kebijakan publik. Keterlibatan aktif bisa dilakukan lewat pemilu, organisasi, hingga gerakan digital.",
+    "tags": ["anak muda", "politik", "partisipasi"],
+    "image": "/images/materi/anak-muda.jpeg"
+  },
+  {
+    "id": "m4",
+    "title": "Partai Politik dan Fungsinya",
+    "summary": "Kenali apa itu partai politik dan perannya dalam sistem pemerintahan.",
+    "content": "Partai politik adalah organisasi yang dibentuk untuk meraih dan mempertahankan kekuasaan dalam pemerintahan. Mereka punya peran dalam menyaring calon pemimpin, merancang kebijakan, dan mengedukasi masyarakat politik.",
+    "tags": ["partai politik", "kebijakan", "pemerintahan"],
+    "image": "/images/materi/partai-politik.jpeg"
+  },
+  {
+    "id": "m5",
+    "title": "Hoaks Politik: Cara Mengenali dan Menghindarinya",
+    "summary": "Belajar mengenali berita palsu di dunia politik agar tidak terjebak disinformasi.",
+    "content": "Hoaks politik bisa memecah belah masyarakat. Penting untuk mengecek fakta sebelum membagikan informasi, mengenali sumber kredibel, dan berpikir kritis terhadap konten yang viral di media sosial.",
+    "tags": ["hoaks", "media sosial", "literasi digital"],
+    "image": "/images/materi/hoaks.jpeg"
+  }
+]

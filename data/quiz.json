@@ -1,0 +1,147 @@
+{
+  "roleplay-pemimpin": [
+    {
+      "type": "roleplay",
+      "question": "Kamu jadi Presiden. Apa prioritas pertamamu?",
+      "options": [
+        { "text": "Bangun jalan tol baru", "score": 2 },
+        { "text": "Naikkan anggaran pendidikan", "score": 3 },
+        { "text": "Tambah rumah sakit", "score": 1 }
+      ]
+    },
+    {
+      "type": "roleplay",
+      "question": "Sebagai DPR, kamu dapat laporan korupsi. Langkah pertama?",
+      "options": [
+        { "text": "Bentuk tim investigasi", "score": 3 },
+        { "text": "Diamkan dulu, belum pasti", "score": 1 },
+        { "text": "Posting opini di media", "score": 2 }
+      ]
+    },
+    {
+      "type": "roleplay",
+      "question": "Kamu wali kota baru. Apa program utama?",
+      "options": [
+        { "text": "Taman kota & ruang publik", "score": 2 },
+        { "text": "Beasiswa pelajar", "score": 3 },
+        { "text": "Bikin aplikasi pengaduan warga", "score": 1 }
+      ]
+    }
+  ],
+  "tebak-tokoh-politik": [
+    {
+      "type": "trivia",
+      "question": "Siapa Presiden RI ke-7?",
+      "options": [
+        { "text": "Joko Widodo", "feedback": "Betul! Dari Solo ke Istana 😄", "score": 3 },
+        { "text": "Megawati", "feedback": "Belum tepat, dia ke-5.", "score": 1 },
+        { "text": "Soeharto", "feedback": "Wah, itu ke-2!", "score": 1 }
+      ]
+    },
+    {
+      "type": "trivia",
+      "question": "Menteri termuda di kabinet Indonesia Maju?",
+      "options": [
+        { "text": "Nadiem Makarim", "feedback": "Ya! Lulusan Harvard juga.", "score": 3 },
+        { "text": "Sandiaga Uno", "feedback": "Dia lebih tua dan masuk belakangan.", "score": 1 },
+        { "text": "Bahlil Lahadalia", "feedback": "Masih muda juga, tapi bukan yang termuda.", "score": 1 }
+      ]
+    },
+    {
+      "type": "trivia",
+      "question": "Tokoh politik yang dulu Walikota Surabaya?",
+      "options": [
+        { "text": "Tri Rismaharini", "feedback": "Betul! Sekarang Menteri Sosial.", "score": 3 },
+        { "text": "Khofifah", "feedback": "Beliau Gubernur Jatim.", "score": 1 },
+        { "text": "Ganjar Pranowo", "feedback": "Itu Jawa Tengah 😄", "score": 1 }
+      ]
+    }
+  ],
+  "situasi-sehari-hari": [
+    {
+      "type": "roleplay",
+      "question": "Di kampusmu ada demo UKT. Kamu akan...",
+      "options": [
+        { "text": "Ikut demo", "score": 3 },
+        { "text": "Diskusi bareng rektor", "score": 2 },
+        { "text": "Bikin kampanye di medsos", "score": 1 }
+      ]
+    },
+    {
+      "type": "roleplay",
+      "question": "Lihat berita hoaks politik. Langkahmu?",
+      "options": [
+        { "text": "Laporkan konten", "score": 3 },
+        { "text": "Bagikan dengan klarifikasi", "score": 2 },
+        { "text": "Diamkan saja", "score": 1 }
+      ]
+    },
+    {
+      "type": "roleplay",
+      "question": "Temanmu ragu ikut pemilu. Kamu bilang...",
+      "options": [
+        { "text": "Hak pilih itu penting", "score": 3 },
+        { "text": "Terserah kamu aja", "score": 1 },
+        { "text": "Yuk, riset dulu bareng!", "score": 2 }
+      ]
+    }
+  ],
+  "trivia-politik": [
+    {
+      "type": "trivia",
+      "question": "Partai bisa usung capres jika punya kursi minimal...",
+      "options": [
+        { "text": "10%", "feedback": "Belum cukup, harus cari teman.", "score": 1 },
+        { "text": "20%", "feedback": "Benar! Ini ambang batasnya.", "score": 3 },
+        { "text": "30%", "feedback": "Terlalu tinggi, cukup 20%.", "score": 1 }
+      ]
+    },
+    {
+      "type": "trivia",
+      "question": "Berapa lama masa jabatan DPR RI?",
+      "options": [
+        { "text": "3 tahun", "feedback": "Kurang lama, coba lagi.", "score": 1 },
+        { "text": "5 tahun", "feedback": "Tepat! Sama seperti presiden.", "score": 3 },
+        { "text": "7 tahun", "feedback": "Terlalu panjang tuh 😅", "score": 1 }
+      ]
+    },
+    {
+      "type": "trivia",
+      "question": "Kapan Pemilu serentak terakhir diadakan?",
+      "options": [
+        { "text": "2014", "feedback": "Itu sebelumnya.", "score": 1 },
+        { "text": "2019", "feedback": "Benar! Presiden & DPR serentak.", "score": 3 },
+        { "text": "2024", "feedback": "Belum terlaksana saat ini.", "score": 1 }
+      ]
+    }
+  ],
+  "aspirasi-masa-depan": [
+    {
+      "type": "roleplay",
+      "question": "Kalau jadi anggota DPR, isu apa kamu perjuangkan?",
+      "options": [
+        { "text": "Lingkungan hidup", "score": 3 },
+        { "text": "Pendidikan", "score": 2 },
+        { "text": "Lapangan kerja", "score": 1 }
+      ]
+    },
+    {
+      "type": "roleplay",
+      "question": "Kalau ada dana desa, kamu pilih program...",
+      "options": [
+        { "text": "Bantu UMKM lokal", "score": 2 },
+        { "text": "Pelatihan digital", "score": 3 },
+        { "text": "Festival budaya", "score": 1 }
+      ]
+    },
+    {
+      "type": "roleplay",
+      "question": "Satu kebijakan wajib untuk generasi muda?",
+      "options": [
+        { "text": "Startup bebas pajak 5 tahun", "score": 2 },
+        { "text": "Pendidikan politik sejak SMA", "score": 3 },
+        { "text": "Gaji UMR naik 2x lipat", "score": 1 }
+      ]
+    }
+  ]
+}
