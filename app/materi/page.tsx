@@ -2,7 +2,7 @@
 
 import { useRouter } from 'next/navigation';
 import { useEffect, useState } from 'react';
-import type { Materi } from '@/types/materi';
+import type { Materi } from '@/types/MateriType';
 import materiData from '@/data/materi.json';
 
 export default function MateriPage() {

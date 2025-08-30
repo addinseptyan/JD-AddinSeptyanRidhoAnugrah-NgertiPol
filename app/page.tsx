@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import type { HistoryData } from "@/types/history";
+import type { HistoryData } from "@/types/HistoryType";
 
 export default function HomePage() {
   const [history, setHistory] = useState<HistoryData | null>(null);
@@ -30,9 +30,9 @@ export default function HomePage() {
     <main className="min-h-screen w-full bg-[#e3eefc] text-[#404040] flex items-center justify-center px-6 py-12">
       <div className="max-w-6xl w-full grid grid-cols-1 md:grid-cols-2 items-center">
         {/* Kolom Kiri - Konten */}
-        <div className="space-y-3">
+        <div className="space-y-3 order-2 md:order-1 pb-10 md:pb-0">
           <div>
-            <h1 className="text-4xl md:text-5xl font-bold text-[#45b8e1] mb-2">
+            <h1 className="text-4xl md:text-9xl font-bold text-[#45b8e1] mb-2">
               NgertiPol
             </h1>
             <p className="italic text-lg text-[#404040]">
@@ -40,26 +40,29 @@ export default function HomePage() {
             </p>
           </div>
 
-          <p className="text-md md:text-lg text-[#404040]">
+          <p className="text-md md:text-lg text-[#404040] py-4">
             Game kuis politik interaktif untuk bantu kamu paham isu politik
             lokal dan nasional dengan cara yang seru dan ringan.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4">
-            <Link href="/quiz">
-              <button className="bg-[#fac541] hover:bg-[#eab728] text-[#404040] font-medium py-3 px-6 rounded-full shadow-md transition hover:shadow-lg hover:cursor-pointer">
-                🎮 Main Dulu, Ah!
-              </button>
-            </Link>
-            <Link href="/materi">
-              <button className="border border-[#fac541] text-[#fac541] hover:text-white hover:bg-[#fac541] font-medium py-3 px-6 rounded-full transition hover:shadow-lg hover:cursor-pointer">
-                📚 Buka Wawasanmu
-              </button>
-            </Link>
+          <div className="flex flex-col gap-4">
+            <div className="flex flex-col sm:flex-row gap-4">
+              <Link href="/quiz">
+                <button className="bg-secondary hover:bg-primary text-foreground hover:text-background font-medium py-3 px-6 rounded-full shadow-md transition hover:shadow-lg hover:cursor-pointer">
+                  🎮 Main Dulu, Ah!
+                </button>
+              </Link>
+              <Link href="/materi">
+                <button className="border border-[#fac541] hover:border-primary text-foreground hover:text-white hover:bg-primary font-medium py-3 px-6 rounded-full transition hover:shadow-lg hover:cursor-pointer">
+                  📚 Buka Wawasanmu
+                </button>
+              </Link>
+            </div>
+            
             {history && Object.keys(history).length > 0 && (
               <button
                 onClick={handleReset}
-                className="bg-[#ff6b6b] hover:bg-[#e55a5a] text-white font-medium py-3 px-6 rounded-full shadow-md transition hover:shadow-lg"
+                className="bg-[#ff6b6b] hover:bg-[#e55a5a] text-white font-medium py-3 px-6 rounded-full shadow-md transition hover:shadow-lg w-64"
               >
                 ♻️ Reset Hasil Kuis
               </button>
@@ -112,7 +115,7 @@ export default function HomePage() {
         </div>
 
         {/* Kolom Kanan - Logo */}
-        <div className="flex justify-center md:justify-end">
+        <div className="flex justify-center md:justify-end order-1 md:order-2">
           <Image
             src="/logo-ngertipol.jpeg"
             alt="Logo NgertiPol"

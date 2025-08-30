@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { Materi } from '@/types/materi';
+import { Materi } from '@/types/MateriType';
 import materiData from '@/data/materi.json';
 
 interface MateriDetailPageProps {

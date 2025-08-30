@@ -1,0 +1,37 @@
+[
+  {
+    "id": "roleplay-pemimpin",
+    "name": "Roleplay Pemimpin",
+    "icon": "🏛️",
+    "description": "Simulasi jadi presiden, DPR, walikota.",
+    "color": "blue"
+  },
+  {
+    "id": "tebak-tokoh-politik",
+    "name": "Tebak Tokoh Politik",
+    "icon": "🧠",
+    "description": "Tebak tokoh-tokoh penting di Indonesia.",
+    "color": "purple"
+  },
+  {
+    "id": "situasi-sehari-hari",
+    "name": "Situasi Sehari-hari",
+    "icon": "🏫",
+    "description": "Politik dalam kehidupan sehari-hari.",
+    "color": "green"
+  },
+  {
+    "id": "trivia-politik",
+    "name": "Trivia/Aturan Politik",
+    "icon": "📜",
+    "description": "Aturan dasar dan sistem pemilu.",
+    "color": "orange"
+  },
+  {
+    "id": "aspirasi-masa-depan",
+    "name": "Aspirasi Masa Depan",
+    "icon": "🚀",
+    "description": "Pendapatmu soal masa depan Indonesia.",
+    "color": "yellow"
+  }
+]

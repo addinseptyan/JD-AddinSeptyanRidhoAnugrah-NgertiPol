@@ -11,7 +11,7 @@
     },
     {
       "type": "roleplay",
-      "question": "Sebagai DPR, kamu dapat laporan korupsi. Langkah pertama?",
+      "question": "Sebagai DPR, kamu dapat laporan korupsi. Apa langkah pertama yang akan kamu lakukan?",
       "options": [
         { "text": "Bentuk tim investigasi", "score": 3 },
         { "text": "Diamkan dulu, belum pasti", "score": 1 },
@@ -20,7 +20,7 @@
     },
     {
       "type": "roleplay",
-      "question": "Kamu wali kota baru. Apa program utama?",
+      "question": "Kamu wali kota baru. Apa program utama yang akan kamu laksanakan?",
       "options": [
         { "text": "Taman kota & ruang publik", "score": 2 },
         { "text": "Beasiswa pelajar", "score": 3 },
@@ -40,7 +40,7 @@
     },
     {
       "type": "trivia",
-      "question": "Menteri termuda di kabinet Indonesia Maju?",
+      "question": "Siapa menteri termuda di kabinet Indonesia Maju?",
       "options": [
         { "text": "Nadiem Makarim", "feedback": "Ya! Lulusan Harvard juga.", "score": 3 },
         { "text": "Sandiaga Uno", "feedback": "Dia lebih tua dan masuk belakangan.", "score": 1 },
@@ -49,7 +49,7 @@
     },
     {
       "type": "trivia",
-      "question": "Tokoh politik yang dulu Walikota Surabaya?",
+      "question": "Siapa tokoh politik yang dulu Walikota Surabaya?",
       "options": [
         { "text": "Tri Rismaharini", "feedback": "Betul! Sekarang Menteri Sosial.", "score": 3 },
         { "text": "Khofifah", "feedback": "Beliau Gubernur Jatim.", "score": 1 },
@@ -69,7 +69,7 @@
     },
     {
       "type": "roleplay",
-      "question": "Lihat berita hoaks politik. Langkahmu?",
+      "question": "Lihat berita hoaks politik. Apa langkahmu?",
       "options": [
         { "text": "Laporkan konten", "score": 3 },
         { "text": "Bagikan dengan klarifikasi", "score": 2 },
@@ -78,7 +78,7 @@
     },
     {
       "type": "roleplay",
-      "question": "Temanmu ragu ikut pemilu. Kamu bilang...",
+      "question": "Temanmu ragu ikut pemilu. Kamu akan bilang...",
       "options": [
         { "text": "Hak pilih itu penting", "score": 3 },
         { "text": "Terserah kamu aja", "score": 1 },
@@ -110,15 +110,15 @@
       "question": "Kapan Pemilu serentak terakhir diadakan?",
       "options": [
         { "text": "2014", "feedback": "Itu sebelumnya.", "score": 1 },
-        { "text": "2019", "feedback": "Benar! Presiden & DPR serentak.", "score": 3 },
-        { "text": "2024", "feedback": "Belum terlaksana saat ini.", "score": 1 }
+        { "text": "2019", "feedback": "Itu yang sebelumnya", "score": 1 },
+        { "text": "2024", "feedback": "Benar! Presiden & DPR serentak.", "score": 3 }
       ]
     }
   ],
   "aspirasi-masa-depan": [
     {
       "type": "roleplay",
-      "question": "Kalau jadi anggota DPR, isu apa kamu perjuangkan?",
+      "question": "Kalau jadi anggota DPR, isu apa yang akan kamu perjuangkan?",
       "options": [
         { "text": "Lingkungan hidup", "score": 3 },
         { "text": "Pendidikan", "score": 2 },
